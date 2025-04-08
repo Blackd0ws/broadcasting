@@ -1,0 +1,10 @@
+{
+  "name": "broadcast-test",
+  "description": "Comparaison des programmes entre deux fichiers JSON",
+  "require": {
+    "php": ">=7.4"
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:8080 -t ."
+  }
+}
