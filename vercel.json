@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "BroadcastTest.php",
+      "src": "/API/BroadcastTest.php",
       "use": "@vercel/php"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/BroadcastTest.php"
+      "dest": "/API/BroadcastTest.php"
     }
   ]
 }
